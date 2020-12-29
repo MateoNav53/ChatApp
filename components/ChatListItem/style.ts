@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     avatar: {
         width: 60,
         height: 60,
-        marginHorizontal: 15,
+        marginHorizontal: 10,
         borderRadius: 50,
     },
     username: {
@@ -26,10 +26,11 @@ const styles = StyleSheet.create({
     },
     lastMessage: {
         fontSize: 16,
-        color: 'grey'
+        color: 'grey',
+        width: '100%'
     },
     time: {
-        fontSize: 16,
+        fontSize: 14,
         color: 'grey'
     }
     
